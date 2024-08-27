@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*.DS_Store
+/mjwallet
+/mjwallet.lock
+/release
+/data
+/internal/test/data
+tmp
+/vendor
+/configs/gen_rbac_policy.csv
+/configs/gen_rbac_policy.csv.bak
+/configs/rbac_policy.csv.bak
+/test/data
+/internal/swagger/v3/.openapi-generator
+/internal/swagger/v3/.openapi-generator-ignore
+
+# IDE configs
+.idea
+.vscode
